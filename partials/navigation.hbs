@@ -5,7 +5,15 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
+
+    {{#if @blog.logo}} 
+    <a href="{{@blog.url}}">
+      <img src="{{@blog.logo}}" class="blog-logo" />
+    </a>
+    {{/if}}
+    
     <p>{{@blog.description}}</p>
+
   </div>
 
   <nav class="sidebar-nav">

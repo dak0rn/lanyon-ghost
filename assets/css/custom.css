@@ -1,0 +1,9 @@
+/**
+ * Theme additions by @dak0rn <daniel@suitsoft.eu>
+ * MIT license applies.
+ */
+.blog-logo {
+    border-radius: 0 !important;
+    margin: 0.5em auto;
+    display: block;
+}
