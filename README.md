@@ -1,4 +1,10 @@
-# Lanyon for Ghost ![Release version](https://img.shields.io/github/release/PxlBuzzard/lanyon-ghost.svg) ![Ghost version](https://img.shields.io/badge/ghost-v0.6.2-blue.svg)
+# Lanyon for Ghost
+
+---
+
+This forked version includes highlight.js, the blog icon in the navigation and some minor changes.
+
+---
 
 [Lanyon](https://github.com/poole/lanyon) is a theme built by [mdo](https://github.com/mdo), originally for [Jekyll](http://jekyllrb.com/). This repository is a conversion of that theme to work with [Ghost](https://ghost.org/).
 
