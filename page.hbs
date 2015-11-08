@@ -3,6 +3,10 @@
 <article class="{{post_class}}">
 {{#post}}
 
+  {{#if image}}
+    <img class="header-image image-{{post_class}}" src="{{image}}" />
+  {{/if}}
+
   <h1 class="post-title">{{title}}</h1>
 
   <section class="post-content">

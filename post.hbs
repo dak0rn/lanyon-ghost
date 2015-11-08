@@ -11,6 +11,10 @@
       </section>
   </header>
 
+  {{#if image}}
+    <img class="header-image image-{{post_class}}" src="{{image}}" />
+  {{/if}}
+
   <section class="post-content">
       {{content}}
       Tags: {{tags}}
