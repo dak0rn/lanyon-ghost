@@ -73,7 +73,12 @@
                (target === checkbox || target === toggle)) return;
 
             checkbox.checked = false;
-          }, false);
+            }, false);
+
+            /* Highlight.js */
+            var pres = Array.prototype.slice.call( document.querySelectorAll('article pre') );
+            pres.forEach( hljs.highlightBlock.bind(hljs) );
+            
         })(document);
       </script>
     {{/if}}
