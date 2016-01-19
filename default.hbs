@@ -24,9 +24,7 @@
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}" />
 
     <!-- Highlight js -->
-    <script src="{{asset "js/highlight/highlight.pack.js"}}"></script>
-
-    <link rel="stylesheet" href="{{asset "css/highlight.css"}}" />
+    <script src="{{asset "js/prism.js"}}"></script>
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -78,7 +76,7 @@
             /* Highlight.js */
             var pres = Array.prototype.slice.call( document.querySelectorAll('article pre') );
             pres.forEach( hljs.highlightBlock.bind(hljs) );
-            
+
         })(document);
       </script>
     {{/if}}
